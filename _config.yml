@@ -24,6 +24,13 @@ repository: HJacco/HJacco.github.io
 url: http://HJacco.github.io
 
 ## Gem
+plugins:
+  - jekyll-paginate
+  - jekyll-geo-pattern
+  - rouge
+  - kramdown
+  - jekyll-github-metadata
+  - jekyll-octicons
 gems:
   - jekyll-paginate
   - jekyll-geo-pattern
