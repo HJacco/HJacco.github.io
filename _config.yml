@@ -15,7 +15,7 @@ company_url: http://www.allinpay.com/
 github_url: https://github.com/HJacco
 github_username: HJacco
 description: this is a full magic location
-favicon: favicon.png # Image must be in assets/images
+favicon: green.png # Image must be in assets/images
 repository: HJacco/HJacco.github.io
 
 # The base hostname & protocol for your site
