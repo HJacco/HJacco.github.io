@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: HJacco's Blog 
+title: 生命不息，奋斗不止 
 name: Jacco 
 email: Jacco@foxmail.com
 location: Shanghai.China
@@ -14,7 +14,7 @@ company: Allinpay
 company_url: http://www.allinpay.com/
 github_url: https://github.com/HJacco
 github_username: HJacco
-description: this is a full magic location
+description: 贫民窟里的百万富翁，一个人最大的财富就是生活的过往经历
 favicon: green.png # Image must be in assets/images
 repository: HJacco/HJacco.github.io
 
@@ -68,8 +68,8 @@ navs:
     label: 主页
 
   -
-    href: /open-source
-    label: 开源
+    href: /read
+    label: 读书
 
   -
     href: /blog
@@ -83,24 +83,48 @@ navs:
     href: /about
     label: 关于
 
+# labels. my blog key words
+labels:
+
+  -
+    href: /read
+    name: 读书
+
+  -
+    href: /trival
+    name: 旅游
+
+  -
+    href: /delicacy
+    name: 美食
+    
+  -
+    href: /collection
+    name: 资源收藏
+
 # selected articles
 classes:
 
   -
-    href: /life.html
-    name: 我的故事
-    describe: 生活就是故事，故事就是生活
+    href: /read
+    name: 读书
+    describe: 外物之味，久则可厌，读书之味，愈久愈深
 
   -
-    href: /arch.html
-    name: 架构师之路
-    describe: 一个架构师的自我修养
+    href: /trival
+    name: 旅游杂记
+    describe: 临清风，对朗月，登山泛水，意酣歌
 
   -
-    href: /jvm.html
-    name: Jvm系列文章
-    describe: Java之根基，Java程序员必学
-	
+    href: /delicacy
+    name: 美食
+    describe: 家庭厨房的意义从不需要被渲染及夸大，它一直都存在着，只需一个恰当的时间，便会体悟到那些和食物交织在一起的珍贵而又细腻的人世记忆。
+
+  -
+    href: /collection
+    name: 资源收藏
+    describe: 资料
+
 # Sidebar to show popular repo
 side_bar_repo_limit: 5 # Number of repos to show
 
