@@ -19,7 +19,7 @@
         {% include pagination.html %}
 
         <!-- Comments -->
-        {% include disqus-comments.html %}
+        {% include comments.html %}
 
     </div>
 

@@ -26,5 +26,6 @@
   },
   "_source": "https://github.com/primer/markdown.git",
   "_target": "^2.5.1",
-  "_originalSource": "primer-markdown"
+  "_originalSource": "primer-markdown",
+  "_direct": true
 }
