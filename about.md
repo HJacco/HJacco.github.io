@@ -2,16 +2,25 @@
 layout: page
 title: About Me
 menu: about
-subtitle:   <h3>Download My CV</h3>
-            <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/CV_Chuan_Dong_FR.pdf" target="_blanks">
-                <span class="flag-icon flag-icon-bl"></span> Français
-            </a>
-            <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/CV_Chuan_Dong_FR.pdf" target="_blanks">
-                <span class="flag-icon flag-icon-gb"></span> English
-            </a>
-            <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/CV_Chuan_Dong_FR.pdf" target="_blanks">
-                <span class="flag-icon flag-icon-cn"></span> 中文
-            </a>
+subtitle:   <section class="jumbotron">
+    <div class="container">
+        <h1>{{ site.title }}</h1>
+        <div id="jumbotron-meta-info">
+            <span class="meta-info">
+                <span class="octicon octicon-location"></span>
+                {{ site.location }}
+            </span>
+            <span class="meta-info hvr-grow">
+                <span class="octicon octicon-organization"></span>
+                <a href="{{ site.company_url }}" target="_blank">{{ site.company }}</a>
+            </span>
+            <span class="meta-info hvr-grow">
+                <span class="octicon octicon-mark-github"></span>
+                <a href="{{ site.github_url }}" target="_blank">@{{ site.name }}</a>
+            </span>
+        </div>
+    </div>
+</section>
                             
 css: ['about.css', 'sidebar-popular-repo.css', '../../bower_components/flag-icon-css/css/flag-icon.min.css']
 ---
