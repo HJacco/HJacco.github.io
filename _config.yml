@@ -133,22 +133,21 @@ classes:
     describe: 资料
 
 cats:
-		
-	-
-	  href: /java
-	  name: java
-	  describe:java技术
-	  
-	-
-      href: /netty
-	  name: netty
-	  describe:netty相关
-	  
-	-
-      href: /spring-cloud
-	  name: spring cloud
-	  describe:spring cloud相关
-	  
+
+  -
+    href: /java
+    name: java
+    describe: java技术
+
+  -
+    href: /netty
+    name: netty
+    describe: netty相关
+
+  -
+    href: /spring-cloud
+    name: spring cloud
+    describe: spring cloud相关	
 
 # Sidebar to show popular repo
 side_bar_repo_limit: 5 # Number of repos to show
