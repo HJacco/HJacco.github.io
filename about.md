@@ -3,19 +3,18 @@ layout: page
 title: About Me
 menu: about
 subtitle:   <div class="container">
-        <h1>{{ site.title }}</h1>
         <div id="jumbotron-meta-info">
             <span class="meta-info">
                 <span class="octicon octicon-location"></span>
-                {{ site.location }}
+                "Shanghai.Pudong Area"
             </span>
             <span class="meta-info hvr-grow">
                 <span class="octicon octicon-organization"></span>
-                <a href="{{ site.company_url }}" target="_blank">{{ site.company }}</a>
+                <a href="http://www.allinpay.com" target="_blank">上海通联支付股份有限公司</a>
             </span>
             <span class="meta-info hvr-grow">
                 <span class="octicon octicon-mark-github"></span>
-                <a href="{{ site.github_url }}" target="_blank">@{{ site.name }}</a>
+                <a href="https://github.com/HJacco" target="_blank">hjacco</a>
             </span>
         </div>
     </div>
