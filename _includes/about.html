@@ -4,7 +4,7 @@
 
         <h2>About me</h2>
 
-        <p>BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla</p>
+        <p>刚搭建完成的小博客</p>
 
         <h2>Contact</h2>
 
@@ -28,39 +28,26 @@
         </div>
         {% endif %}
 
-        {% if site.skill_j2ee_keywords %}
+        {% if site.fav_novel_books %}
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">J2EE Developer Keywords</h3>
+                <h3 class="panel-title">喜欢的小说</h3>
             </div>
             <div class="panel-body">
-                {% for keyword in site.skill_j2ee_keywords %}
+                {% for keyword in site.fav_novel_books %}
                 <button class="btn btn-default" type="button">{{ keyword }}</button>
                 {% endfor %}
             </div>
         </div>
         {% endif %}
 
-        {% if site.skill_mobile_app_keywords %}
+        {% if site.fav_tech_books %}
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Mobile Developer Keywords</h3>
+                <h3 class="panel-title">经典的技术书籍</h3>
             </div>
             <div class="panel-body">
-                {% for keyword in site.skill_mobile_app_keywords %}
-                <button class="btn btn-default" type="button">{{ keyword }}</button>
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
-
-        {% if site.skill_web_keywords %}
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">Web Developer Keywords</h3>
-            </div>
-            <div class="panel-body">
-                {% for keyword in site.skill_web_keywords %}
+                {% for keyword in site.fav_tech_books %}
                 <button class="btn btn-default" type="button">{{ keyword }}</button>
                 {% endfor %}
             </div>
