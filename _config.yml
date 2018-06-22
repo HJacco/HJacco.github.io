@@ -108,6 +108,11 @@ labels:
 classes:
 
   -
+    href: /tech
+    name: 技术
+    describe: 杂七杂八的东西
+
+  -
     href: /read
     name: 读书
     describe: 外物之味，久则可厌，读书之味，愈久愈深
@@ -126,6 +131,24 @@ classes:
     href: /collection
     name: 资源收藏
     describe: 资料
+
+cats:
+		
+	-
+	  href: /java
+	  name: java
+	  describe:java技术
+	  
+	-
+      href: /netty
+	  name: netty
+	  describe:netty相关
+	  
+	-
+      href: /spring-cloud
+	  name: spring cloud
+	  describe:spring cloud相关
+	  
 
 # Sidebar to show popular repo
 side_bar_repo_limit: 5 # Number of repos to show

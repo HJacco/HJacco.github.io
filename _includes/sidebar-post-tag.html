@@ -1,14 +1,23 @@
 <h3 class="sidebar-title">Blog Categories</h3>
-<div id="blog-categories">
-    <ul class="list-group">
-        {% for category in site.categories %}
-        <li class="list-group-item">
-            {{ category | first }}
-            <span class="badge">{{ category[1].size }}</span>
-        </li>
-        {% endfor %}
-    </ul>
+
+{% for cat in site.cats  %}
+<div class="card text-center">
+    <div class="thumbnail">
+        <div class="card-image geopattern" data-pattern-id="{{ cat.name }}">
+            <div class="card-image-cell">
+                <h3 class="card-title">
+                    <a href="{{ cat.href }}" target="_blank">{{ cat.name }}</a>
+                </h3>
+            </div>
+        </div>
+        <div class="caption">
+            <div class="card-description">
+                <p class="card-text">{{ cat.describe }}</p>
+            </div>
+        </div>
+    </div>
 </div>
+{% endfor %}
 <script type="text/javascript">
 
     $(document).ready(function(){
