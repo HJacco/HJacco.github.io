@@ -2,8 +2,7 @@
 layout: page
 title: About Me
 menu: about
-subtitle:   <section class="jumbotron">
-    <div class="container">
+subtitle:   <div class="container">
         <h1>{{ site.title }}</h1>
         <div id="jumbotron-meta-info">
             <span class="meta-info">
@@ -20,7 +19,6 @@ subtitle:   <section class="jumbotron">
             </span>
         </div>
     </div>
-</section>
                             
 css: ['about.css', 'sidebar-popular-repo.css', '../../bower_components/flag-icon-css/css/flag-icon.min.css']
 ---
