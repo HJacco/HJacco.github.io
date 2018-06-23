@@ -2,7 +2,7 @@
 layout: post
 title: CSS Animation
 category: CSS
-tags: [css]
+tags: [tech,css]
 ---
 
 Quick note about CSS animation. 
