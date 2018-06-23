@@ -20,8 +20,11 @@
 {% endfor %}
 <script type="text/javascript">
 
-    $(document).ready(function(){
-        $("#blog-categories li").css('text-transform','capitalize')
+    // Enable bootstrap tooltip
+        $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+		$('.geopattern').each(function(){
+            $(this).geopattern($(this).data('pattern-id'));
+        });
     });
 
 </script>
