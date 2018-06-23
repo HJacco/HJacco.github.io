@@ -51,5 +51,5 @@ tags: [other]
 &emsp;&emsp;jekyll项目根目录必须包含主页`index.html`,站点上任何 HTML 文件，包括主页，都可以使用 layout 和 include 中的内容作为公用的内容，如页面的 header 和 footer. 将合适的部分抽出放到布局中。
 
 * 通过markdown文件的yaml头的layout属性引用layout目录下的文件
-* 通过liquid标签 {% include xx.html %}引用include下的文件
+* 通过liquid标签 `{% include xx.html %}`引用include下的文件
 
