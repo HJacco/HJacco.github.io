@@ -148,6 +148,11 @@ cats:
     href: /spring-cloud
     name: spring cloud
     describe: spring cloud相关	
+	
+  -
+    href: /other
+    name: 杂七杂八
+    describe: 杂七杂八的东西	
 
 # Sidebar to show popular repo
 side_bar_repo_limit: 5 # Number of repos to show

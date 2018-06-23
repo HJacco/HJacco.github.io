@@ -1,11 +1,11 @@
 ---
 layout: page
-title: netty 技术
-titlebar: netty
-subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; netty 技术
-menu: netty
+title: 杂七杂八的技术
+titlebar: spring-cloud
+subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; 杂七杂八的技术
+menu: other
 css: ['blog-page.css']
-permalink: /netty
+permalink: /other
 ---
 
 <div class="row">
@@ -13,7 +13,7 @@ permalink: /netty
     <div class="col-md-12">
 
         <ul id="posts-list">
-            {% for post in site.tags.netty %}
+            {% for post in site.tags.other %}
 				{% for post.category=='tech' %}
 					<li class="posts-list-item">
 						<div class="posts-content">
