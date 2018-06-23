@@ -2,7 +2,7 @@
 layout: default
 title: 技术
 menu: tech
-css: ['open-source.css']
+css: ['blog-page.css']
 permalink: /tech
 javascript: ['underscore-min.js']
 ---
