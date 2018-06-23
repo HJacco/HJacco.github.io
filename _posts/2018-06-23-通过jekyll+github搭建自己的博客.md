@@ -16,9 +16,9 @@ tags: [other]
 2、安装git
 
 ## 尝鲜式搭建
-### 1、github上新建代码仓库，注意，仓库名称必须是 `${你github的用户名}.github.io`
-### 2、在[jekyll官方主题网站]('http://jekyllthemes.org/')上找到自己喜欢的主题样式,并下载到本地
-### 3、主题根目录下的_config.yml是全局配置文件，修改Set settings下的一些信息，之后将所有的文件提交到步骤一创建的远程代码库，就可以通过浏览器访问博客了，http://${你github的用户名}.github.io
+#### 1、github上新建代码仓库，注意，仓库名称必须是 `${你github的用户名}.github.io`
+#### 2、在[jekyll官方主题网站]('http://jekyllthemes.org/')上找到自己喜欢的主题样式,并下载到本地
+#### 3、主题根目录下的_config.yml是全局配置文件，修改Set settings下的一些信息，之后将所有的文件提交到步骤一创建的远程代码库，就可以通过浏览器访问博客了，http://${你github的用户名}.github.io
 
 ## 使用
 ### 目录结构
