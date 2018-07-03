@@ -166,3 +166,16 @@ analytics :
 
 fav_novel_books: [平凡的世界,鬼吹灯,三体,盗墓笔记]
 fav_tech_books: [java并发编程的艺术,Effective java,Netty权威指南第二版,数据结构与算法分析（java语言描述）,重构 改善既有代码的设计]
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+
+gitalk:
+    owner: hjacco
+    repo: blog-comments
+    clientID: bb587899c062bfdfc4ec
+    clientSecret: 51e789f759ac1be05e8209a7b30ceac478d73578
