@@ -16,7 +16,7 @@ company_url: http://www.allinpay.com/
 github_url: https://github.com/HJacco
 github_username: HJacco
 description: 贫民窟里的百万富翁，一个人最大的财富就是生活的过往经历
-favicon: green.png # Image must be in assets/images
+favicon: huang.png # Image must be in assets/images
 repository: HJacco/HJacco.github.io
 
 host: 0.0.0.0
