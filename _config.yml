@@ -6,13 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 生命不息，奋斗不止
-subtitle:  学习是灯，努力是油，要想灯亮，只有加油。
+title: 码农的世界
+subtitle: 博观而约取，厚积而薄发
 name: Jacco 
 email: Jacco@foxmail.com
 location: Shanghai.China
-company: Allinpay
-company_url: http://www.allinpay.com/
+company: 上海携程旅游网
+company_url: http://www.ctrip.com/
 github_url: https://github.com/HJacco
 github_username: HJacco
 description: 贫民窟里的百万富翁，一个人最大的财富就是生活的过往经历
@@ -164,8 +164,8 @@ analytics :
       tracking_id : 'tracking_id'  # ex. UA-72165600-X
 
 
-fav_novel_books: [平凡的世界,鬼吹灯,三体,盗墓笔记]
-fav_tech_books: [java并发编程的艺术,Effective java,Netty权威指南第二版,数据结构与算法分析（java语言描述）,重构 改善既有代码的设计]
+fav_novel_books: [平凡的世界,鬼吹灯,三体,盗墓笔记,摆渡人]
+fav_tech_books: [java并发编程的艺术,Effective java,Netty权威指南第二版,数据结构与算法分析（java语言描述）,重构 改善既有代码的设计,大型网站系统与Java中间件实践]
 
 # ---------------- #
 #      Comments    #
