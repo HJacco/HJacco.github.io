@@ -10,7 +10,7 @@ subtitle:   <div class="container">
             </span>
             <span class="meta-info hvr-grow">
                 <span class="octicon octicon-organization"></span>
-                <a href="http://www.allinpay.com" target="_blank">上海通联支付股份有限公司</a>
+                <a href="http://www.ctrip.com" target="_blank">上海携程旅游网</a>
             </span>
             <span class="meta-info hvr-grow">
                 <span class="octicon octicon-mark-github"></span>
