@@ -8,7 +8,7 @@ subtitle: <span class="mega-octicon octicon-calendar"></span>分类：&nbsp;&nbs
 {% endfor %}
 menu: archives
 css: ['blog-page.css']
-permalink: /archives.html
+permalink: /archives
 ---
 
 <ul class="archives-list">

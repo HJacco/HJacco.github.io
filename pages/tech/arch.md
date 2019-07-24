@@ -1,11 +1,11 @@
 ---
 layout: page
-title: spring-cloud
-titlebar: spring-cloud
-subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; spring-cloud相关
-menu: spring-cloud
+title: 架构师之路
+titlebar: arch
+subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; 架构师的修养
+menu: arch
 css: ['blog-page.css']
-permalink: /spring-cloud
+permalink: /arch
 ---
 
 <div class="row">
@@ -13,7 +13,7 @@ permalink: /spring-cloud
     <div class="col-md-12">
 
         <ul id="posts-list">
-            {% for post in site.tags.spring-cloud %}
+            {% for post in site.tags.arch %}
 				{% if post.category=='tech' %}
 					<li class="posts-list-item">
 						<div class="posts-content">
