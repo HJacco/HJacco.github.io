@@ -74,6 +74,10 @@ navs:
     label: 博客
 
   -
+    href: /
+    label: 主页
+
+  -
     href: /about
     label: 关于
 
