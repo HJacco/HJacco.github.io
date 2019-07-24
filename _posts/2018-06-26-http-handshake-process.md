@@ -2,7 +2,7 @@
 layout: post
 title: https握手流程
 category: tech
-tags: [other]
+tags: [arch]
 ---
 
 #  https握手流程
