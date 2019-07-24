@@ -70,16 +70,8 @@ navs:
     label: 主页
 
   -
-    href: /read
-    label: 读书
-
-  -
     href: /blog
     label: 博客
-
-  -
-    href: /bookmark
-    label: 书签
 
   -
     href: /about
@@ -89,8 +81,8 @@ navs:
 labels:
 
   -
-    href: /read
-    name: 读书
+    href: /tech
+    name: 技术
 
   -
     href: /trival
@@ -110,12 +102,8 @@ classes:
   -
     href: /tech
     name: 技术
-    describe: 杂七杂八的东西
+    describe: 独属于码农
 
-  -
-    href: /read
-    name: 读书
-    describe: 外物之味，久则可厌，读书之味，愈久愈深
 
   -
     href: /trival
@@ -136,22 +124,22 @@ cats:
 
   -
     href: /java
-    name: java
-    describe: java技术
+    name: java系列
+    describe: 勤修内功
 
   -
-    href: /netty
-    name: netty
-    describe: netty相关
+    href: /big-data
+    name: 大数据
+    describe: 信息爆炸的时代
 
   -
-    href: /spring-cloud
-    name: spring cloud
-    describe: spring cloud相关	
+    href: /arch
+    name: 架构师之路
+    describe: 架构师的修养	
 
   -
     href: /other
-    name: 杂七杂八
+    name: 常用技术
     describe: 杂七杂八的东西	
 
 # Sidebar to show popular repo
