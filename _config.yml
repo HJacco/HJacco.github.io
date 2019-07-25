@@ -78,6 +78,10 @@ navs:
     label: 归档
 
   -
+    href: /job
+    label: 内推
+
+  -
     href: /about
     label: 关于
 

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: 读万卷书
-titlebar: read
-subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; 书中自有黄金屋，书中自有颜如玉，书中自有千钟粟，书中车马多簇簇
-menu: read
+title: 热爱劳动
+titlebar: job
+subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; 简历都到碗里来
+menu: job
 css: ['blog-page.css']
-permalink: /read
+permalink: /job
 ---
 
 <div class="row">
@@ -14,7 +14,7 @@ permalink: /read
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='read' %}
+                {% if post.category=='job' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
@@ -25,9 +25,6 @@ permalink: /read
                 {% endif %}
             {% endfor %}
         </ul> 
-
-        <!-- Pagination -->
-        {% include pagination.html %}
 
         <!-- Comments -->
        <div class="comment">
