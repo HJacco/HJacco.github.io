@@ -169,5 +169,5 @@ comments_provider: gitalk
 gitalk:
     owner: hjacco
     repo: blog-comments
-    clientID: bb587899c062bfdfc4ec
-    clientSecret: 51e789f759ac1be05e8209a7b30ceac478d73578
+    clientID: 6c42b08aa65c76b50cee
+    clientSecret: 1f5e20f97342906a9769eca72f31fb0c8c99f1d8
