@@ -12,7 +12,7 @@ permalink: /job
 
     <div class="col-md-12">
 
-        <p>携程内推，请将简历发至cj.huang@ctrip.com</p>
+        <p class=".lead">携程内推，请将简历发至cj.huang@ctrip.com</p>
 
         <!-- Comments -->
        <div class="comment">
