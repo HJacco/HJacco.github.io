@@ -12,7 +12,7 @@ permalink: /job
 
     <div class="col-md-8 markdown-body">
 		
-        <h3>携程职位内推，请将简历发至cj.huang@ctrip.com</h3>
+        <h3>上海携程职位内推，请将简历发至cj.huang@ctrip.com</h3>
 		<h4>标题格式：技术等级--业务方向--姓名  例如：高级java开发工程师--火车票BU--小明</h4>
 		<h4>业务方向可以不填写</h4>
         <!-- Comments -->
