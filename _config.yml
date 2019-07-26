@@ -89,20 +89,20 @@ navs:
 labels:
 
   -
-    href: /tech
-    name: 技术
+    href: /notes
+    name: 随笔
 
   -
-    href: /trival
-    name: 旅游
+    href: /redis
+    name: redis
 
   -
-    href: /delicacy
-    name: 美食
+    href: /mybatis
+    name: mybatis
     
   -
-    href: /collection
-    name: 资源收藏
+    href: /spring
+    name: spring
 
 # selected articles
 classes:
