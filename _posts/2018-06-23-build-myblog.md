@@ -17,7 +17,7 @@ tags: [other]
 
 ## 尝鲜式搭建
 #### 1、github上新建代码仓库，注意，仓库名称必须是 `${你github的用户名}.github.io`
-#### 2、在[jekyll官方主题网站]('http://jekyllthemes.org/')上找到自己喜欢的主题样式,并下载到本地
+#### 2、在[jekyll官方主题网站](http://jekyllthemes.org/)上找到自己喜欢的主题样式,并下载到本地
 #### 3、主题根目录下的_config.yml是全局配置文件，修改Set settings下的一些信息，之后将所有的文件提交到步骤一创建的远程代码库，就可以通过浏览器访问博客了，http://${你github的用户名}.github.io
 
 ## 使用
@@ -30,7 +30,7 @@ tags: [other]
 * `_site` 如果使用jekyll本地版生成页面就会有该文件夹.一般会被判断为不上传到github.非必须.
 
 ### 配置文件
-&emsp;&emsp;配置文件保存了jekyll项目的变量配置，详细信息科参考官网[关于配置项]('http://jekyllcn.com/docs/configuration/')的介绍
+&emsp;&emsp;配置文件保存了jekyll项目的变量配置，详细信息科参考官网[关于配置项](http://jekyllcn.com/docs/configuration/)的介绍
 
 ### 撰写博客
 &emsp;&emsp;在`_post`目录下（或者该目录下的其他子目录）新建一个markdown文件，**命名格式：`yyyy-mm-dd-标题.markdown`**,所有的博客文章必须以YAML头信息开头
