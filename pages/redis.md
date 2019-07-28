@@ -13,8 +13,7 @@ permalink: /redis
     <div class="col-md-12">
     
         <ul id="posts-list">
-            {% for post in site.posts %}
-                {% if post.category=='redis' or post.keywords contains 'redis' %}
+            {% for post in site.tags.redis %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
@@ -22,7 +21,6 @@ permalink: /redis
                         <span class='circle'></span>
                     </div>
                 </li>
-                {% endif %}
             {% endfor %}
         </ul> 
     

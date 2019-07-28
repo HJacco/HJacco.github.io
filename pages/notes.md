@@ -13,8 +13,7 @@ permalink: /notes
     <div class="col-md-12">
     
         <ul id="posts-list">
-            {% for post in site.posts %}
-                {% if post.category=='notes' or post.keywords contains 'notes' %}
+            {% for post in site.tags.notes %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
@@ -22,7 +21,6 @@ permalink: /notes
                         <span class='circle'></span>
                     </div>
                 </li>
-                {% endif %}
             {% endfor %}
         </ul> 
     
