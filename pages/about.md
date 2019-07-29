@@ -19,7 +19,7 @@ subtitle:   <div class="container">
         </div>
     </div>
                             
-css: ['about.css', 'sidebar-popular-repo.css', '../../bower_components/flag-icon-css/css/flag-icon.min.css']
+css: ['about.css', 'sidebar-popular-repo.css', '/bower_components/flag-icon-css/css/flag-icon.min.css']
 permalink: /about
 ---
 
